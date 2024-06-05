@@ -56,7 +56,7 @@ Error generating stack: `+o.message+`
     
   }
  
-`,Rm=({toggle:e})=>R.jsxs($m,{children:[R.jsx("img",{src:"Dicegame/public/images/dices.png",alt:"amazon"}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Gi,{onClick:e,children:"Play now"})]})]}),$m=ct.div`
+`,Rm=({toggle:e})=>R.jsxs($m,{children:[R.jsx("img",{src:"/public/images/dices.png",alt:"amazon"}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Gi,{onClick:e,children:"Play now"})]})]}),$m=ct.div`
     max-width:1180px;
     display:flex;
     margin: 0 auto;
@@ -107,7 +107,7 @@ Error generating stack: `+o.message+`
     font-size: 24px ;
     font-weight: 500px;
   }
-`,Mm=({currentDice:e,rollDice:t})=>R.jsxs(Fm,{children:[R.jsx("div",{className:"Dice",onClick:t,children:R.jsx("img",{src:`/images/dices/dice_${e}.png`,alt:`${e}`})}),R.jsx("p",{children:"Click Here to Roll"})]}),Fm=ct.div`
+`,Mm=({currentDice:e,rollDice:t})=>R.jsxs(Fm,{children:[R.jsx("div",{className:"Dice",onClick:t,children:R.jsx("img",{src:`/public/images/dices/dice_${e}.png`,alt:`${e}`})}),R.jsx("p",{children:"Click Here to Roll"})]}),Fm=ct.div`
     display:flex;
     flex-direction: column;
     margin-top: 48px;
