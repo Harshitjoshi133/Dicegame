@@ -3,8 +3,9 @@ import styled from 'styled-components'
 import { Button } from '../styled/Button'
 const StartGame = ({toggle}) => {
   return (
-    <Container>
-        <img src="/public/images/dices.png" alt="amazon"/>
+    <Container>g
+        <img src="https://raw.githubusercontent.com/Harshitjoshi133/Dicegame/main/public/images/dices.png
+" alt="amazon"/>
         <div className="content">
             <h1>Dice Game</h1>
             <Button onClick={toggle}>Play now
