@@ -56,7 +56,7 @@ Error generating stack: `+o.message+`
     
   }
  
-`,Rm=({toggle:e})=>R.jsxs($m,{children:[R.jsx("img",{src:"/images/dices.png",alt:"amazon"}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Gi,{onClick:e,children:"Play now"})]})]}),$m=ct.div`
+`,Rm=({toggle:e})=>R.jsxs($m,{children:[R.jsx("img",{src:"/public/images/dices.png",alt:"amazon"}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Gi,{onClick:e,children:"Play now"})]})]}),$m=ct.div`
     max-width:1180px;
     display:flex;
     margin: 0 auto;
